@@ -1,0 +1,346 @@
+print 1-255:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+       for (int i =1 ;i<=255;i++){
+           System.out.println(i);
+       }
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+print odd numbers between 1-255:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+       for (int i =1 ;i<=255;i++){
+           if (i%2 !=0)
+           System.out.println(i);
+       }
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+print sum :
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int sum =0;
+       for (int i =1 ;i<=255;i++){
+           sum+=i;
+           System.out.println("the number is "+i+" and the sum is "+sum);
+       }
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+public class HelloWorld{
+
+     public static void main(String []args){
+         int sum []={1,3,5,7,9,13};
+       for (int i =0 ;i<sum.length;i++){
+           
+           System.out.println("the number is "+sum[i]);
+       }
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+fnad the max in array :
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int sum []={1,3,5,7,9,13};
+         int max =sum[0];
+       for (int i =0 ;i<sum.length;i++){
+           if(sum[i]>max){
+               max=sum[i];
+           
+           }
+       }
+       System.out.println("the max is "+max);
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Get Average:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr []={1,3,5,7,9,13};
+         int max =arr[0];
+         int sum =0;
+         float avg =0;
+       for (int i =0 ;i<arr.length;i++){
+           sum+=arr[i];
+           
+           
+       }
+       avg=sum/(float)arr.length;
+       
+       System.out.println("the max is "+avg);
+        
+        
+        
+        }
+
+   
+     
+    
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Array with Odd Numbers:
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr[];
+         arr = new int[255];
+         int y =5;
+         int counter =0;
+         for (int i = 0 ;i<=arr.length;i++){
+             if(i%2 !=0){
+                arr[i]=i;
+             }
+         }
+         //System.out.println("the remain is "+arr[100]);
+         
+           
+           
+       }
+       
+        
+        
+        
+        
+
+   
+     
+    
+}
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Greater Than Y:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr []={0,1,2,3,4,5,6,7,8,9};
+         int y =5;
+         int counter =0;
+         for (int i = 0 ;i<arr.length;i++){
+             if(arr[i]>y){
+                 counter++;
+             }
+         }
+         System.out.println("the remain is "+counter);
+         
+           
+           
+       }
+       
+        
+        
+        
+        
+
+   
+     
+    
+}
+
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+Square the values:
+
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr[]={1,5,10,-2};
+        
+         for (int i = 0 ;i<arr.length;i++){
+             arr[i]*=arr[i];
+             System.out.println("the remain is "+arr[i]);
+         }
+         
+        
+         
+           
+           
+       }
+       
+    
+    
+}
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Eliminate Negative Numbers:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr[]={1,5,10,-2};
+        
+         for (int i = 0 ;i<arr.length;i++){
+             if(arr[i]<0){
+                 arr[i]=0;
+             }
+             
+             System.out.println(" "+arr[i]);
+         }
+         
+        
+         
+           
+           
+       }
+       
+        
+   
+    
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Max, Min, and Average:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr[]={1,5,10,-2};
+        int max =arr[0];
+        int min=arr[0];
+         double avg =0;
+         int sum=0;
+        
+         for (int i = 0 ;i<arr.length;i++){
+             if(arr[i]>max){
+                 max =arr[i];
+                
+             }
+             if(arr[i]<min){
+                 min =arr[i];
+                
+             }
+             
+             sum+=arr[i];
+             
+              
+         }
+         avg=sum/(float)arr.length;
+         System.out.println(" max is "+max);
+         System.out.println(" min is "+min);
+         System.out.println(" avg is "+avg);
+        
+         
+           
+           
+       }
+       
+     
+    
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Shifting the Values in the Array:
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         int arr[]={1,5,10,-2};
+         
+			int[] newarr=new int[arr.length];
+        int j=1;
+        for(int i =0;i<arr.length;i++){
+            if(j<arr.length){
+                newarr[i]=arr[j];
+                j++;
+            }
+        }
+        newarr[arr.length-1]=0;
+        for (int i=0 ;i<arr.length;i++){
+            System.out.println(" "+newarr[i]);
+        }
+        
+		}
+                
+         
+           
+           
+       
+       
+     
+    
+}
+
+
