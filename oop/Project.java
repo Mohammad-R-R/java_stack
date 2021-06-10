@@ -41,6 +41,9 @@ public class Project {
 		
 		
 		}
+	public String ElevatorPitch() {
+        return String.format("%s , %s", name,  description);
+    }
 	}
 	
 
