@@ -1,5 +1,9 @@
 package com.example.repos;
 
-public interface cityReop {
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.models.City;
+
+public interface cityReop extends CrudRepository<City, Long> {
 
 }
